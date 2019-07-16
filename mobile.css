@@ -1,0 +1,142 @@
+#landing-nav {
+    display: flex;
+    text-align: center;
+    
+    width: 100%;
+    background: #BD2A44;
+    color: #FDFFFC;
+    padding: 1rem;
+    z-index: 1;
+    font-size: 1rem;
+}
+
+#landing-nav ul{
+    display: inline-block
+}
+
+#landing-nav h1{
+    margin-bottom: 1rem;
+}
+
+
+#showcase .showcase-content {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+    position: absolute;
+    top: 98px;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+
+#options-nav .options-content ul{
+    display: inline-block;
+    text-align: center;
+}
+
+#options-nav .options-content ul li {
+    display: flex;
+    justify-content: center;
+}
+
+.header-styling {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 2.5rem;
+    margin-top: -2rem;
+}
+
+#showcase .showcase-content h2 {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+#tel-öffnungszeiten-sect .tel-öffnungszeiten-sect-content h2{
+    font-size: 1.5rem;
+}
+
+#super-mittag-sect .header h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#super-mittag-sect .super-mittag-sect-info {
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
+#pasta-al-forno-sect {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/pasta-al-forno.jpg') no-repeat center center/cover;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 0.75rem; 
+}
+
+#fladenbrot-sect {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/fladenbrot2.jpg') no-repeat center center/cover;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 0.75rem; 
+}
+
+#gemüse-aufläufe-sect {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/gemüse-auflauf.jpg') no-repeat center center/cover;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 0.75rem;
+}
+#hausgemachtes-geflügel-schnitzel-sect {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/geflügel-schnitzel.jpg') no-repeat center center/cover;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 0.75rem;
+}
+
+#hausgemachtes-schweine-schnitzel-sect {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/schweineschnitzel.jpg') no-repeat center center/cover;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 0.75rem;
+}
+
+#getränke-sect {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/getränke.jpg') no-repeat center center/cover;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 0.75rem;
+}
+
+#insalate-sect {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/insalate2.jpg') no-repeat center center/cover;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 0.75rem;
+}
+
+#pizza-sect {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/pizza.webp') no-repeat center center/cover;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 0.75rem;
+}
+
+#über {
+    display: inline-block;
+}
+
+#über .right-section {
+    width: 100%;
+}
+
+#über .left-section {
+    width: 100%;
+}
